@@ -3,7 +3,7 @@
 GitHub 업로드용으로 정리한 묶음입니다.
 수정된 OpenFOAM 결과(`wing5_uav_rerun_v2_signfix`)와 `01_light_front_curve` 시각화, baseline 이미지, 재현 스크립트를 같이 넣었습니다.
 
-![alt text](01_light_reference.png)
+![alt text](01_light_front_curve.png)
 ![alt text](baseline_no_streamline.png)
 
 ## Main case
