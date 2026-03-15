@@ -1,0 +1,51 @@
+# Stage-2 Gazebo parameters regenerated from rerun_v2_signfix OpenFOAM data
+vehicle:
+  mass_kg: 7.2
+  cg_m: [0.0, 0.0, 0.0]
+  inertia_kgm2:
+    ixx: 0.4393
+    iyy: 1.404
+    izz: 1.814
+    ixy: 6.79635e-07
+    ixz: 0.0001779
+    iyz: 0.04858
+
+aerodynamics:
+  frame: "y-forward,x-right,z-up"
+  sref_m2: 0.3684
+  lref_m: 0.16
+  cofr_m: [0.0, 0.0, 0.0]
+  alpha_table_deg: [-2, 0, 2, 4, 6, 8]
+  cd_table: [0.25661475, 0.25601135, 0.25642764, 0.25492292, 0.25309679, 0.25131743]
+  cl_table: [0.05878747, 0.08175374, 0.11021775, 0.13767542, 0.16573963, 0.19410256]
+  cmpitch_table: [-0.00458462, 0.00080112, 0.00476284, 0.00748031, 0.01198561, 0.01683073]
+  linearized:
+    cl_alpha_per_deg: 0.013657011
+    cl0: 0.083741730
+    cm_alpha_per_deg: 0.002047824
+    cm0: 0.000069192
+    a0_rad: -0.107019680
+    cd0: 0.256011346
+    cd_alpha_per_deg: -0.000524785
+
+active_sdf_plugin_scale:
+  factor: 0.1
+  note: "Active wing5_vtol_layout_cfd_v2 SDF keeps aero plugin coefficients scaled to 10% of raw CFD-derived linearized values."
+
+motors_temp_model:
+  note: "temporary and replaceable"
+  vtol_rotor_count: 4
+  pusher_count: 1
+  thrust_model: "T = kT * rpm^2"
+  torque_model: "Q = kQ * rpm^2"
+  rpm_max: 7500
+  kT_N_per_rpm2: 6.276256000000e-07
+  kQ_Nm_per_rpm2: 3.765753600000e-08
+  hover:
+    total_thrust_N: 70.607880
+    per_vtol_rotor_N: 17.651970
+    assumed_hover_throttle: 0.50
+    implied_max_thrust_per_vtol_rotor_N: 35.303940
+  dynamics:
+    spoolup_time_s: 0.15
+    spooldown_time_s: 0.20

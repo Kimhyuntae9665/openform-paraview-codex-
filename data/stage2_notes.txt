@@ -1,0 +1,1 @@
+rerun_v2_signfix complete. AoA/lift sign corrected against direct U30_AoA4 verification; active Gazebo SDF updated using 10% plugin-scale convention already present in wing5_vtol_layout_cfd_v2.
